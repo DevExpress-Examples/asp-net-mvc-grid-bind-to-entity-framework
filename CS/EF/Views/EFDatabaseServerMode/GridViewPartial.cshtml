@@ -1,0 +1,18 @@
+@Html.DevExpress().GridView(settings => {
+    settings.Name = "grid";
+
+    settings.CallbackRouteValues = new { Controller = "EFDatabaseServerMode", Action = "GridViewPartial" };
+
+    settings.KeyFieldName = "OrderID";
+
+    settings.Columns.Add("OrderID");
+    settings.Columns.Add("CustomerID");
+    settings.Columns.Add("ShipName");
+    settings.Columns.Add("ShipAddress");
+
+    settings.Settings.ShowGroupPanel = true;
+
+}).BindToEF(string.Empty, string.Empty, (s, e) => {
+    e.KeyExpression = "OrderID";
+    e.QueryableSource = Model;
+}).GetHtml()
