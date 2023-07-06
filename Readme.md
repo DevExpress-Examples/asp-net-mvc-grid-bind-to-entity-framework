@@ -52,7 +52,7 @@ public ActionResult GridViewPartial() {
 }
 ```
 
-This example operates the `Northwind SQL Compact` demo database data Model. Since table column names contain spaces, it is necessary to define the corresponding mappings at the `DBContext` level (see the [OnModelCreating](https://github.com/LanaDX/how-to-bind-the-gridview-with-the-entity-framework-in-a-regular-and-database-server-modes-e3252/blob/0fc02fe03420146b1d0138c8038cb7167b5521a3/CS/Models/Model.cs#L18-L23) method implementation). In most cases, this step is not required.
+In this example, the grid is bound to the `Northwind SQL Compact` demo database data Model. Since table column names contain spaces, it is necessary to define the corresponding mappings at the `DBContext` level (see the [OnModelCreating](https://github.com/LanaDX/how-to-bind-the-gridview-with-the-entity-framework-in-a-regular-and-database-server-modes-e3252/blob/0fc02fe03420146b1d0138c8038cb7167b5521a3/CS/Models/Model.cs#L18-L23) method implementation). In most cases, this step is not required.
 
 
 ## Files to Review
