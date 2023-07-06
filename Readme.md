@@ -6,11 +6,11 @@
 
 # Grid View for ASP.NET Web Forms - How to bind grid to Entity Framework in regular and database server modes
 
-This example demonstrates two approaches how to bind a grid to Entity Framework. The first approach is recommended for small data sources because it downloads the data to the grid. The second approach operates on the database side and is recommended for large amount of data.
+This example demonstrates two approaches on how to bind a grid to Entity Framework. The first approach is recommended for small data sources because it downloads the data to the grid. The second approach operates on the database side and is recommended for large amounts of data.
 
 ## Grid mode
 
-In grid mode, all data shaping operations are performed on the WebServer/Grid side. This mode is effective when it is necessary to maintain a small amount of data. You should explicitly evaluate data from the Entity Framework context used as the grid Model. In this example we use the the [ToList](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolist) method to get data:
+In grid mode, all data shaping operations are performed on the WebServer/Grid side. This mode is best suited for maintaining a small amount of data. You should explicitly evaluate data from the Entity Framework context used as the grid Model. In this example, we use the [ToList](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolist) method to get data:
 
 ```cs
 @Html.DevExpress().GridView(settings => {
@@ -29,11 +29,11 @@ public ActionResult GridViewPartial() {
 
 ## Database server mode
 
-In database server mode, all data shaping operations are performed on the database server side. This mode is effective when it is necessary to maintain a large amount of data, for instance 100k records. The GridView loads records on demand and performs data-aware operations (sorting, filtering, grouping, etc.) on the data server. This approach significantly improves the GridView’s speed and responsiveness.
+In database server mode, all data shaping operations are performed on the database server side. This mode is aimed at maintaining a large amount of data, for instance, 100k records. The GridView loads records on demand and performs data-aware operations (sorting, filtering, grouping, etc.) on the data server. This approach significantly improves the GridView’s speed and responsiveness.
 
 
 
-Call a [BindToEF](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.GridViewExtension.BindToEF.overloads) method to bind the grid to the Entity Framework data content. This method uses database server mode to optimize the execution of all queries to the data context initiated by the GridView. 
+Call a [BindToEF](https://docs.devexpress.com/AspNetMvc/DevExpress.Web.Mvc.GridViewExtension.BindToEF.overloads) method to bind the grid to the Entity Framework's data content. This method uses database server mode to optimize the execution of all queries to the data context initiated by the GridView. 
 ```cs
 @Html.DevExpress().GridView(settings => {
     // ...
