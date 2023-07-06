@@ -57,11 +57,11 @@ In this example, the grid is bound to the `Northwind SQL Compact` demo database 
 
 ## Files to Review
 
-* [EFGridMode/GridViewPartial.cshtml](./CS/Views/EFGridMode/GridViewPartial.cshtml) (VB: [EFGridMode/GridViewPartial.vbhtml](./VB/Views/EFGridMode/GridViewPartial.vbhtml))
-* [EFDatabaseServerMode/GridViewPartial.cshtml](./CS/Views/EFDatabaseServerMode/GridViewPartial.cshtml) (VB: [EFDatabaseServerMode/GridViewPartial.vbhtml](./VB/Views/EFDatabaseServerMode/GridViewPartial.vbhtml))
-* [EFGridModeController.cs](./CS/Controllers/EFGridModeController.cs) (VB: [EFGridModeController.vb](./VB/Controllers/EFGridModeController.vb))
-* [EFDatabaseServerModeController.cs](./CS/Controllers/EFDatabaseServerModeController.cs) (VB: [EFDatabaseServerModeController.vb](./VB/Controllers/EFDatabaseServerModeController.vb))
-* [Model.cs](./CS/Models/Model.cs) (VB: [Model.vb](./VB/Models/Model.vb))
+* [EFGridMode/GridViewPartial.cshtml](./CS/Views/EFGridMode/GridViewPartial.cshtml) 
+* [EFDatabaseServerMode/GridViewPartial.cshtml](./CS/Views/EFDatabaseServerMode/GridViewPartial.cshtml) 
+* [EFGridModeController.cs](./CS/Controllers/EFGridModeController.cs)
+* [EFDatabaseServerModeController.cs](./CS/Controllers/EFDatabaseServerModeController.cs)
+* [Model.cs](./CS/Models/Model.cs)
 
 ## Documentation
 
