@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Grid View for ASP.NET Web Forms - How to bind grid to Entity Framework in regular and database server modes
+# Grid View for ASP.NET MVC - How to bind grid to Entity Framework in regular and database server modes
 
 This example demonstrates two approaches on how to bind a grid to Entity Framework. The first approach is recommended for small data sources because it downloads the data to the grid. The second approach operates on the database side and is recommended for large amounts of data.
 
