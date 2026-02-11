@@ -69,7 +69,7 @@ In this example, the grid is bound to the `Northwind SQL Compact` demo database 
 * [Bind Grid View to Large Data (Database Server Mode)](https://docs.devexpress.com/AspNetMvc/14760/components/grid-view/binding-to-data/binding-to-large-data-database-server-mode)
 * [KB Article: How to bind MVC GridView Extension with Entity Framework in a server mode](https://supportcenter.devexpress.com/ticket/details/ka18615/how-to-bind-mvc-gridview-extension-with-entity-framework-in-a-server-mode)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-grid-bind-to-entity-framework&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-grid-bind-to-entity-framework&~~~was_helpful=no)
 
